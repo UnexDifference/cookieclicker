@@ -3,19 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class ClickManager : MonoBehaviour
+
+namespace CookieClickerScripts
 {
-    public static int pets;
-    public TextMeshProUGUI display;
 
-    public void GetClicks()
+
+    public class ClickManager : MonoBehaviour
     {
-        pets += 1;
+        public TextMeshProUGUI display;
+        public static float pets;
+
         
-    }
 
-    private void Update()
-    {
-        display.text = ("You have " + pets + " Petpoints");
+        public void GetClicks()
+        {
+            pets += 1;
+            Debug.Log("You pet the animal");
+        }
+
+        
+
+        private void Update()
+        {
+            display.text = ("You have " + pets + " Petpoints");
+        }
     }
 }

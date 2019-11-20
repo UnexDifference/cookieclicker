@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Hippo.unity
+    guid: 9b9852f6a8d8c12448d6d29a911075ee
+  - enabled: 1
+    path: Assets/Scenes/Gehegeauswahl.unity
+    guid: 7abd2e5b1f1b9054ca4e23bb6ea35587
+  - enabled: 1
+    path: Assets/Scenes/Hauptmenu.unity
+    guid: 1b5d5cf502d74644ab0faa4a8ecc8b7c
+  - enabled: 1
+    path: Assets/Scenes/Kaufmenu.unity
+    guid: d12ff3f35c7c8da46aac32586c4f300d
   m_configObjects: {}
