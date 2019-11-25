@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Kaufmenu.unity
     guid: d12ff3f35c7c8da46aac32586c4f300d
+  - enabled: 1
+    path: Assets/Scenes/Giraffe.unity
+    guid: dbd239f1caa311c4d847c23ee07dd645
+  - enabled: 1
+    path: Assets/Scenes/Elephant.unity
+    guid: 0333e314971b2b34ebd84d34df9fa6dc
   m_configObjects: {}

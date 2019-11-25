@@ -636,7 +636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 938fd7b497c1e7f4a8923104c2944a11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  sceneName: Elephant
 --- !u!1 &1205882723
 GameObject:
   m_ObjectHideFlags: 0
